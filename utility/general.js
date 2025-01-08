@@ -1,5 +1,3 @@
-const { CloseButton } = require("react-bootstrap");
-
 //BD
 ////////////////////////////////////////////////////////////////
 const typeEncryptPassword = "MD5";
