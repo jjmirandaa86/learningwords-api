@@ -76,7 +76,7 @@ Install my-project with npm
 
 - [@jjmirandaa86](https://www.acertijo.dev)
 
-## EndPoints
+## EndPoints Examples
 
 ### User
 
@@ -123,7 +123,7 @@ POST - Authetication User (body)
     body =
     {
         "user": "dom",
-	    "password": "domdom"
+	  "password": "domdom"
     }
 
 POST - Validate Authetication User (body)
