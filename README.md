@@ -76,6 +76,66 @@ Install my-project with npm
 
 - [@jjmirandaa86](https://www.acertijo.dev)
 
+## EndPoints
+
+### User
+
+```javascript
+
+GET - ALL Users
+  http://localhost:3000/api/user
+
+GET - User by ID 1
+  http://localhost:3000/api/user/1
+
+POST - Add User (body)
+  http://localhost:3000/api/user
+
+  body =
+    {
+        "firstName": "Domenica",
+        "lastName": "Miranda",
+        "user": "dom",
+        "password": "domdom",
+        "email": "dom@dom.com",
+        "status": "A",
+        "gender": "F"
+    }
+
+PUT - Mofify User (body)
+
+    http://localhost:3000/api/user
+    body =
+    {
+        "firstName": "Justin J",
+        "lastName": "Miranda C",
+        "email": "justin@justinmc.com",
+        "status": "P",
+        "gender": "M"
+    }
+
+DELETE - User by ID 1
+  http://localhost:3000/api/user/1
+
+POST - Authetication User (body)
+    http://localhost:3000/api/user/auth
+
+    body =
+    {
+        "user": "dom",
+	    "password": "domdom"
+    }
+
+POST - Validate Authetication User (body)
+http://localhost:3000/api/user/authvalidate
+
+ body =
+    {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoxNzM2MTU3MjQyMTYzLCJ1c2VySWQiOiJkb20iLCJpYXQiOjE3MzYxNTcyNDJ9.gH1_usDqMOYrgebshK4IeJ0WoGadxU4gqoXi6mmTxPw"
+    }
+
+```
+
 ## Demo
 
 ![Demo](https://github.com/jjmirandaa86/learningwords-api/blob/main/img/img-vsc-api.png)
