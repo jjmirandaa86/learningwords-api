@@ -1,4 +1,4 @@
-![Logo](https://github.com/jjmirandaa86/learningwords-api/img/img-vsc-api.png)
+![Logo](https://github.com/jjmirandaa86/learningwords-api/blob/main/img/logo.png)
 
 # Project: Learning Words API (Nodejs, Express)
 
@@ -75,3 +75,7 @@ Install my-project with npm
 ## Authors
 
 - [@jjmirandaa86](https://www.acertijo.dev)
+
+## Demo
+
+![Demo](https://github.com/jjmirandaa86/learningwords-api/blob/main/img/img-vsc-api.png)
