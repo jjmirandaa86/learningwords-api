@@ -1,0 +1,2 @@
+- validar url paginacion cuando es pagina sin parametro de usuario 
+    no esta completa la direccion en la pagina
